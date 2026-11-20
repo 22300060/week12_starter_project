@@ -15,6 +15,7 @@ export default function Lab4RefTimer() {
     timerRef.current = setInterval(() => {
       setCount((prev) => prev + 1);
     }, 1000);
+    setRunning(true);
   };
 
   const stop = () => {
@@ -22,6 +23,7 @@ export default function Lab4RefTimer() {
     // TODO 6: timerRef.current를 null로, running은 false로 변경
     clearInterval(timerRef.current);
     timerRef.current = null;
+    setRunning(false);
   };
 
   const reset = () => {
