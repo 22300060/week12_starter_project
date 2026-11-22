@@ -88,7 +88,7 @@ body {
 }
 .count {
   font-variant-numeric: tabular-nums;
-  font-size: 64px;
+  font-size: 130px;
   font-weight: 800;
   letter-spacing: -2px;
   margin: 18px 0;
@@ -103,7 +103,7 @@ body {
   border: 0;
   border-radius: 9px;
   padding: 11px 19px;
-  background: #285bc7;
+  background: #0f8f7e;
   color: white;
   font-size: 14px;
   font-weight: 650;
